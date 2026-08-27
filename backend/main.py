@@ -16,6 +16,7 @@ load_dotenv()
 
 SPOTIFY_CLIENT_ID = os.getenv("SPOTIFY_CLIENT_ID", "")
 SPOTIFY_CLIENT_SECRET = os.getenv("SPOTIFY_CLIENT_SECRET", "")
+ADMIN_SECRET_KEY = os.getenv("ADMIN_SECRET_KEY","")
 
 app = FastAPI(
     title="Spotify Governed AI Memory Engine",
@@ -262,18 +263,38 @@ def login_user(payload: LoginRequest):
     role = payload.role.strip()
     
     if role == "Admin / Developer":
-        if payload.secret_key != "admin123":
-            raise HTTPException(status_code=403, detail="Invalid Admin Secret Key! Access Denied.")
+        if payload.secret_key != ADMIN_SECRET_KEY:
+            raise HTTPException(status_code=401, detail="Invalid Admin Secret Key! Access Denied.")
         return {"status": "success", "user_id": uid, "role": "Developer", "full_name": "Admin Developer"}
     
-    conn = sqlite3.connect(DB_FILE)
-    cursor = conn.cursor()
-    cursor.execute("SELECT full_name FROM users WHERE user_id = ?", (uid,))
-    row = cursor.fetchone()
-    conn.close()
-    
-    display_name = row[0] if (row and row[0]) else uid.replace("_", " ").title()
-    return {"status": "success", "user_id": uid, "role": "User", "full_name": display_name}
+    try:
+        with sqlite3.connect(DB_FILE) as conn:
+            cursor = conn.cursor()
+            cursor.execute("SELECT full_name FROM users WHERE user_id = ?", (uid,))
+            row = cursor.fetchone()
+    except sqlite3.Error as e:
+        raise HTTPException(
+            status_code=500,
+            detail="Database error occurred."
+        )
+
+    if not row:
+
+        print("unauthorized user is able to login")
+        raise HTTPException(
+            status_code=404,
+            detail="User not found."
+        )
+
+    full_name = row[0]
+    display_name = full_name if full_name else uid.replace("_", " ").title()
+
+    return {
+        "status": "success",
+        "user_id": uid,
+        "role": "User",
+        "full_name": display_name,
+    }
 
 @app.get("/mcp/tools")
 def get_mcp_manifest():

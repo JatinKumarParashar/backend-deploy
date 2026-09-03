@@ -2,8 +2,8 @@
                    │
                    ▼
           ┌─────────────────┐
-          │   Streamlit UI  │
-          │  frontend/app.py│
+          │  react Client   │
+          │                 │
           └────────┬────────┘
                    │
                    ▼
@@ -46,7 +46,7 @@
     Personalized Response
               │
               ▼
-          Streamlit
+          HTTP Client
               │
               ▼
              USER

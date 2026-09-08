@@ -4,6 +4,8 @@ A FastAPI backend for a personalized Spotify-style listening experience. The ser
 
 The frontend can be built with React and communicates with this service over HTTP.
 
+## Contributors
+
 ## Features
 
 - OTP-based demo registration and user login

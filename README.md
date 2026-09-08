@@ -5,12 +5,13 @@ A FastAPI backend for a personalized Spotify-style listening experience. The ser
 The frontend can be built with React and communicates with this service over HTTP.
 
 ## Contributors
-1. Jatin Kumar
-2. Aryan Gupta
+1. Mansi Srivastava
+2. Jatin Kumar
 3. B. Harsha Sai
-4. Mansi Srivastava
-5. Shivam Mishra (Embeddings and Graph Memory)
-6. Deep Sarkar
+4. Deep Sarkar
+5. Shivam Mishra 
+6. Aryan Gupta
+
 ## Features
 
 - OTP-based demo registration and user login

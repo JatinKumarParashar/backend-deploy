@@ -11,6 +11,7 @@ The frontend can be built with React and communicates with this service over HTT
 4. Deep Sarkar
 5. Shivam Mishra 
 6. Aryan Gupta
+7. Anju khedar
 
 ## Features
 

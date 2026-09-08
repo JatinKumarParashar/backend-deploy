@@ -1,4 +1,4 @@
-# Spotify Governed AI Memory Engine
+# Spotify Governed AI Memory Engine  (https://spotify-ai-memory-j4tu.onrender.com)
 
 A FastAPI backend for a personalized Spotify-style listening experience. The service accepts natural-language listening requests, extracts context such as activity, mood, artist, podcast topic, and exclusions, stores user-controlled memory in SQLite, and returns recommendations from Spotify when credentials are configured.
 

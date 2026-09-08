@@ -7,7 +7,7 @@ The frontend can be built with React and communicates with this service over HTT
 ## Contributors
 1. Jatin Kumar
 2. Aryan Gupta
-
+3. B. Harsha Sai
 ## Features
 
 - OTP-based demo registration and user login

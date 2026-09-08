@@ -7,7 +7,7 @@ The frontend can be built with React and communicates with this service over HTT
 ## Contributors
 1. Mansi Srivastava
 2. Jatin Kumar
-3. B. Harsha Sai
+3. B. Harsha Sai - colab link (https://colab.research.google.com/drive/1mnm4CNY3ERfQZMAiWi4aJQDASfRpa4j5?usp=drive_link)
 4. Deep Sarkar - video link ( https://drive.google.com/file/d/1m7F3PM1c5zjYKuOzsi8CUPLUYXwAmvSZ/view?usp=sharing )
 5. Shivam Mishra 
 6. Aryan Gupta - video link ( https://drive.google.com/file/d/1WMWmS4PLZvuNvTpDqpoEj5uT5Lt_urmF/view?usp=sharing )

@@ -10,6 +10,7 @@ The frontend can be built with React and communicates with this service over HTT
 3. B. Harsha Sai
 4. Mansi Srivastava
 5. Shivam Mishra (Embeddings and Graph Memory)
+6. Deep Sarkar
 ## Features
 
 - OTP-based demo registration and user login

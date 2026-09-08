@@ -8,7 +8,7 @@ The frontend can be built with React and communicates with this service over HTT
 1. Mansi Srivastava
 2. Jatin Kumar
 3. B. Harsha Sai
-4. Deep Sarkar
+4. Deep Sarkar - video link ( https://drive.google.com/file/d/1m7F3PM1c5zjYKuOzsi8CUPLUYXwAmvSZ/view?usp=sharing )
 5. Shivam Mishra 
 6. Aryan Gupta
 7. Anju khedar

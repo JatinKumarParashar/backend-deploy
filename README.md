@@ -9,7 +9,7 @@ The frontend can be built with React and communicates with this service over HTT
 2. Jatin Kumar
 3. B. Harsha Sai - colab link (https://colab.research.google.com/drive/1mnm4CNY3ERfQZMAiWi4aJQDASfRpa4j5?usp=drive_link)
 4. Deep Sarkar - video link ( https://drive.google.com/file/d/1m7F3PM1c5zjYKuOzsi8CUPLUYXwAmvSZ/view?usp=sharing )
-5. Shivam Mishra 
+5. Shivam Mishra - Video_Link (  https://drive.google.com/file/d/13DTm2OXPr8f1jckPutfqJjzDMbFau6cM/view?usp=sharing  )
 6. Aryan Gupta - video link ( https://drive.google.com/file/d/1WMWmS4PLZvuNvTpDqpoEj5uT5Lt_urmF/view?usp=sharing )
 7. Anju khedar
 

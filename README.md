@@ -5,7 +5,7 @@ A FastAPI backend for a personalized Spotify-style listening experience. The ser
 The frontend can be built with React and communicates with this service over HTTP.
 
 ## Contributors
-1. Mansi Srivastava
+1. Mansi Srivastava - [Project Explanation video] (https://drive.google.com/file/d/1thJDxjCs0g_0Hz5AvGjSiTIuO3J28Iii/view?usp=sharing)
 2. Jatin Kumar
 3. B. Harsha Sai - colab link (https://colab.research.google.com/drive/1mnm4CNY3ERfQZMAiWi4aJQDASfRpa4j5?usp=drive_link)
 4. Deep Sarkar - video link ( https://drive.google.com/file/d/1m7F3PM1c5zjYKuOzsi8CUPLUYXwAmvSZ/view?usp=sharing )
